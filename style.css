@@ -30,7 +30,7 @@ h1 {
   font-weight: 400;
   line-height: 2rem;
 }
-.description {
+#description {
   color: white;
   margin-top: 10px;
   font-size: 1.2rem;
@@ -54,8 +54,7 @@ button {
 span {
   font-size: 0.9rem;
 }
-.formGroup {
-}
+
 label,
 p {
   display: block;

@@ -10,7 +10,7 @@
   <body>
     <nav class="container">
       <h1 id="title">freeCodeCamp Survey Form</h1>
-      <p class="description">
+      <p id="description">
         Thank you for taking the time to help us improve the platform
       </p>
     </nav>
@@ -44,7 +44,8 @@
         <input
           class="beloPolje"
           type="number"
-          id="Age"
+          pattern="\d*"
+          id="number"
           name="Age"
           min="10"
           max="99"
@@ -149,5 +150,6 @@
         <button id="submit" type="submit">Submit</button>
       </div>
     </form>
+    <script src=" https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
 </html>
