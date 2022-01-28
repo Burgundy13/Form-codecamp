@@ -42,19 +42,9 @@ form {
   padding: 40px;
   border-radius: 5px;
 }
-button {
-  color: white;
-  background-color: #37af67;
-  width: 100%;
-  margin-top: 20px;
-  padding: 15px;
-  border: none;
-  font-size: 1rem;
-}
 span {
   font-size: 0.9rem;
 }
-
 label,
 p {
   display: block;
@@ -65,30 +55,39 @@ p {
 #name-label {
   margin-top: 0;
 }
-.beloPolje {
+.belo-polje {
   padding: 7px 10px;
   border-radius: 5px;
   text-align: left;
   font-size: 1.1rem;
   color: gray;
   margin-top: 5px;
-
   width: 100%;
 }
-.radioLabel,
-.checkboxLabel {
+.radio-label,
+.checkbox-label {
   margin: 7px;
-}
-textarea {
-  padding: 5px 0px 40px 10px;
-  border-radius: 5px;
-  font-size: 1.1rem;
-  color: rgb(44, 43, 43);
-  margin-top: 5px;
-  width: 100%;
 }
 input[type="radio"],
 input[type="checkbox"] {
   width: 20px;
   height: 20px;
+}
+textarea {
+  border-radius: 5px;
+  font-size: 1.1rem;
+  color: rgb(44, 43, 43);
+  margin-top: 5px;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 60px;
+}
+button {
+  color: white;
+  background-color: #37af67;
+  width: 100%;
+  margin-top: 20px;
+  padding: 15px;
+  border: none;
+  font-size: 1rem;
 }
